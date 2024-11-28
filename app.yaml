@@ -1,6 +1,9 @@
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: python310
+# "api_version" field is not allowed in runtime python312.
+# api_version: 1
+# "Not supprted in python313 and can safely be removed.""
+# threadsafe: true
+service_account: "open-speech-recording-443021@appspot.gserviceaccount.com"
 
 # [START handlers]
 handlers:

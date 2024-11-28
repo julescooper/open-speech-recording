@@ -1,2 +1,4 @@
-Flask==0.12.1
+Flask>=2.0
+Werkzeug>=2.0
 google-cloud-storage==0.22.0
+jinja2<3.1
